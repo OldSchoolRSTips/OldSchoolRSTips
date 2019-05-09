@@ -1,0 +1,268 @@
+[
+   {
+      "id":100,
+      "text":"<a href='https://oldschool.runescape.wiki/w/Ancient_mace' target='_blank'>Ancient mace</a> special attack overfills your prayer points by the amount that you hit, and the bonus has no decay. Use this on a dummy (as the dummy always hits max) in your player owned house, adding such additional benefits like an undead dummy, Void armor, Salve amulet, spec energy-refilling pools, Dragon battleaxe, and Piety to maximize the benefits of this trick.",
+      "category":0,
+      "image":"wew.png"
+   },
+   {
+      "id":101,
+      "text":"An Amulet of Glory can be <a href='https://oldschool.runescape.wiki/w/Amulet_of_Glory_(mounted)'>mounted</a> in your house at 47 Construction. It has unlimited teleport charges.",
+      "category":0
+   },
+   {
+      "id":102,
+      "text":"Farming contracts in the Farming Guild often pay for themselves due to the valuable seeds they give as rewards.",
+      "category":0
+   },
+   {
+      "id":103,
+      "text":"Press the Control key when clicking a tile to automatically run instead of walk there.",
+      "category":0
+   },
+   {
+      "id":104,
+      "text":"Alchemy spells have a warning threshold you can set by right clicking on them. Use this to remove annoying alerts, or even make the warnings more strict.",
+      "category":0
+   },
+   {
+      "id":105,
+      "text":"The Escape key can be enabled in your settings to automatically close any open interfaces or windows. This is highly useful when banking or doing repetitive window-heavy tasks.",
+      "category":0
+   },
+   {
+      "id":106,
+      "text":"You can enable the Shift-to-drop feature in your settings. Pressing shift and clicking an item will automatically drop it without needing to right-click.",
+      "category":0
+   },
+   {
+      "id":107,
+      "text":"Wine is a very cheap source of healing for players of all levels. For a few GP, they heal 11 hitpoints. They can be used by archers and mages, and even warriors if their attack-draining effects are counteracted by a restore potion.",
+      "category":0
+   },
+   {
+      "id":108,
+      "text":"A higher Prayer bonus reduces the rate at which your prayer points drain. If you're using a protection prayer, then it's advised to completely abandon defensive stats and go for as high of a prayer bonus as possible, as the prayer results in 100% invincibility anyways.",
+      "category":0
+   },
+   {
+      "id":109,
+      "text":"Add as many teleports as possible to your Player-owned-house and carry a teleport tablet or a Law and Dust rune at all times to effectively have a teleport to anywhere with as little as one inventory space used.",
+      "category":0
+   },
+   {
+      "id":110,
+      "text":"Click the middle mouse button and drag to easily move the game camera around.",
+      "category":0
+   },
+   {
+      "id":111,
+      "text":"Use Runelite.",
+      "category":0
+   },
+   {
+      "id":112,
+      "text":"Cat death runes.",
+      "category":0
+   },
+   {
+      "id":113,
+      "text":"Xeric's talisman.",
+      "category":0
+   },
+   {
+      "id":114,
+      "text":"Get varrock staves as early as possible.",
+      "category":0
+   },
+   {
+      "id":115,
+      "text":"Birdhouse runs.",
+      "category":0
+   },
+   {
+      "id":116,
+      "text":"Murky Matt can decant jewelry at the Grand Exchange..",
+      "category":0
+   },
+   {
+      "id":117,
+      "text":"Count Check offers a one-time instant teleport from Lumbridge to the Stronghold of Security, where you will earn 10,000 GP upon completion. Spam click the doors to skip the questions.",
+      "category":1
+   },
+   {
+      "id":117,
+      "text":"Clan wars portal acts an Ornate Pool - it removes and heals all debuffs and stats.",
+      "category":0
+   },
+   {
+      "id":118,
+      "text":"Suicide on Jad to skip his slayer task for free.",
+      "category":0
+   },
+   {
+      "id":119,
+      "text":"Talk to the range tutor in lumbridge to set arrows to automatically go into your quiver when they are picked up off the ground.",
+      "category":1
+   },
+   {
+      "id":120,
+      "text":"Create tiaras for quick early runecrafting experience.",
+      "category":0
+   },
+   {
+      "id":121,
+      "text":"Drink wines, pray Protect from Magic, and wear dragonhide to waste the highest amount possible of a pker's runes and time.",
+      "category":0
+   },
+   {
+      "id":122,
+      "text":"Aggressive mode adds +3 invisible strength levels. Accurate mode adds +3 invisible attack levels. Defensive adds +3 Defence levels. Controlled adds +1 to each.",
+      "category":0
+   },
+   {
+      "id":123,
+      "text":"Use an item on a deposit box to deposit it without using an interface.",
+      "category":0
+   },
+   {
+      "id":124,
+      "text":"Claim free runes from the rune tutor in Lumbridge every 30 minutes.",
+      "category":1
+   },
+   {
+      "id":125,
+      "text":"Use minigame teleports. They are free.",
+      "category":0
+   },
+   {
+      "id":126,
+      "text":"Rock crabs have a negative range def bonus.",
+      "category":0
+   },
+   {
+      "id":127,
+      "text":"Use Bones to PEaches tablets to greatly extend trip length.",
+      "category":0
+   },
+   {
+      "id":128,
+      "text":"Use the Preserve prayer to make potions and boosts last much longer. When active, a stat will drain every 1:30 instead of 1:00.",
+      "category":0
+   },
+   {
+      "id":129,
+      "text":"Use noted items on any banker to unnote them.",
+      "category":0
+   },
+   {
+      "id":130,
+      "text":"Phials unnotes items for a small fee, just south of the Rimmington house portal. Use him to unnote planks and train construction much more effectively.",
+      "category":0
+   },
+   {
+      "id":131,
+      "text":"The Warrior Ring is a very affordable ring for early melee training. It gives a +4 slash bonus, which increases the hit chance of all slash weapons.",
+      "category":0
+   },
+   {
+      "id":132,
+      "text":"Monk robes are a very cheap source of prayer bonus. They are especially useful during wilderness Slayer tasks. Don't forget to carry leather for tip <a>#121</a>, though!",
+      "category":0
+   },
+   {
+      "id":133,
+      "text":"Smithing bars into dart tips or unfinished bolts offer a rare opportunity for both smithing experience and a slight profit at the same time. It's also very afkable.",
+      "category":0
+   },
+   {
+      "id":134,
+      "text":"Type '::renderself' into the chat to instantly become invisible. Type again to revert this effect. This does not change your visibility to other players or NPCs!",
+      "category":0
+   },
+   {
+      "id":135,
+      "text":"The Runelite client has a GPU renderer plugin that increases the efficiency, render distance, and performance (frame rate) of the game. Note: only download it from runelite.net - as it's an open source project, many make malicious clones of it that steal accounts.",
+      "category":0
+   },
+   {
+      "id":136,
+      "text":"To train magic quickly at an early level, have a friend wear metal armor, stand idle, and drink wine in the Clan Wars free-for-all area while you cast Fire strike on them. Alternatively, low level players may cast this on each other, but they will need to heal frequently.",
+      "category":1
+   },
+   {
+      "id":137,
+      "text":"To easily travel to Ardougne, bank all your items in Edgeville and pull the wilderness lever (by the Yew tree) twice. It will lead you to the wilderness, and then to Ardougne. Again, bank everything!",
+      "category":0
+   },
+   {
+      "id":138,
+      "text":"You can 'flinch' NPCs by attacking them and quickly running to a safespot, and waiting until their health bar disappears before attacking them again.",
+      "category":0
+   },
+   {
+      "id":139,
+      "text":"Killing Banshees for Pure essence drops is actually faster than outright mining it. Plus, you get combat experience!",
+      "category":0
+   },
+   {
+      "id":140,
+      "text":"Long Bones and Curved Bones can be traded in with Barlak for thousands of free Construction experience.",
+      "category":0
+   },
+   {
+      "id":141,
+      "text":"Type '::displayfps' into your chat box to see an overlay of memory usage and current framerate. The game is capped at 50FPS.",
+      "category":0
+   },
+   {
+      "id":142,
+      "text":"Read the <a href='https://oldschool.runescape.wiki/w/New_player_guide' target='_blank'>New Player Guide</a> on the official OSRS Wiki.",
+      "category":0
+   },
+   {
+      "id":143,
+      "text":"If you're having trouble getting Jagex to do what you want, try typing a few crab emojis on both sides of your request. They will instantly do what you command. It's like mind control or something.",
+      "category":0
+   },
+   {
+      "id":144,
+      "text":"Read the <a href='https://oldschool.runescape.wiki/w/Optimal_quest_guide' target='_blank'>Optimal quest guide</a> prior to beginning questing.",
+      "category":1
+   },
+   {
+      "id":145,
+      "text":"Start doing Slayer tasks as early and often as possible. The Black mask (and further, Slayer helmet) increase accuracy and damage to task monsters by 16.66%. As a result, Slayer becomes some of the best combat experience and money in the game.",
+      "category":0
+   },
+   {
+      "id":146,
+      "text":"At 75 Slayer, you can begin killing Gargoyles. There's a room on the top floor of the Morytania Slayer Tower where they can be killed off-task, and their average drop value averages anywhere from 3k to 5k.",
+      "category":0
+   },
+   {
+      "id":147,
+      "text":"Slayer arguably yields its first major reward at level 70. At 70 Slayer, you can begin killing Kurasks in the Relleka Slayer Caves using either Ranged or melee. They're less money than Gargoyles, however.",
+      "category":0
+   },
+   {
+      "id":148,
+      "text":"To easily and cheaply train crafting, get a glass blowing pipe and molten glass. Experience rates are roughly 90-100k an hour, it requires very little attention, and the cost per experience is around 1-3gp.",
+      "category":0
+   },
+   {
+      "id":149,
+      "text":"Type '-wikia' when doing a Google search for a wiki page. It will hide the results from the old abandoned wiki.",
+      "category":0
+   },
+   {
+      "id":150,
+      "text":"Slayermusiq1's quest guides and the official wiki's own guides are the two most popular quest guide outlets for the game.",
+      "category":0
+   },
+   {
+      "id":151,
+      "text":"Do Romeo and Juliet, Cook's Assistant, and Sheep Shearer to quickly obtain 7 Quest Points and get immediate access to the Grand Exchange item sell block list.",
+      "category":1
+   }
+]
