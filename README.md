@@ -1,10 +1,10 @@
 # What is OldSchoolRS.Tips?
 
-It's a delivery vessel I designed that's sole job is to give individual bits of information from the tips file (tips.json) to users.
+It's a delivery vessel I designed that's sole job is to give individual bits of information from the tips file (tips.json) to users. All tips are bite-sized, community-sourced, weighted equally, and anyone can submit one via a pull request.
 
 # Why?
 
-We live in an era where content engines like Reddit and YouTube are constantly being fed, and old information is decaying and dying. Tips for Old School RuneScape suffer greatly, especially when the creators of the information delete their accounts or an algorithm de-ranks their content.
+We live in an era where content engines like Reddit and YouTube are constantly being fed, and old information is decaying and dying. Tips for Old School RuneScape suffer greatly, especially when the creators of the information delete their accounts or an algorithm de-ranks their content. Or, even worse, the forum they were hosted on goes offline. This has been happening at an alarming rate over this past year, so I'm building an immortal area to preserve this information.
 
 Old School RuneScape players need a reliable one-stop-shop for easy-to-lose tips on the game that they can contribute to equally. This outlet needs to place equal weighting on all tips as well, so as to prevent them from decay. The information also needs to be something that's in a small and efficient format so they can download and retain it themselves. Small data lives forever!
 
