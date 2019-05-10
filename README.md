@@ -1,3 +1,9 @@
+# To-do
+
+1. Convert re-roll to AJAX to prevent page reloading and flickering
+2. Complete the rest of the current tips
+3. Add wiki links to as many existing tips as possible
+
 # What is OldSchoolRS.Tips?
 
 It's a delivery vessel I designed that's sole job is to give individual bits of information from the tips file (tips.json) to users. All tips are bite-sized, community-sourced, weighted equally, and anyone can submit one via a pull request.
