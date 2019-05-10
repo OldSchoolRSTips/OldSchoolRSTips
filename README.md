@@ -12,7 +12,11 @@ Old School RuneScape players need a reliable one-stop-shop for easy-to-lose tips
 
 No, this is a tiny website being hosted on a Raspberry Pi. I don't think it will ever even require donations in its current scope. This is a philanthropic effort. These tips have benefited me and made my gameplay much better over the few years I have discovered them, and I want the trail to be much easier for those that traverse it in my wake.
 
-I do intend to look into ways to track likes, however. This is not monetization (by me), but I'm willing to bet Google would make money off of me using Analytics. If I track likes, it will have to be done in such a way that preserves the private identities of those that like it. That means no login systems. It'll most likely be some sort of one-way hash of an IP/useragent salt mix being stored in an SQL database via an AJAX call. This would allow for a "ranking" system where users can vote their most desired tips to the top of a hall-of-fame like list.
+I do intend to look into ways to track likes, however. This is not monetization (by me), but I'm willing to bet Google would make money off of me using their services. If I track likes and such, it will have to be done in such a way that preserves the private identities and credentials of those that use the website or participate. We live in a very scary era of game accounts being hacked and stolen all the time. A lot of this happens because people maliciously create websites and software tools that are designed to get vital information from their users to aid in account theft. Transparency and time are often the only things that can alliviate suspicion.
+
+That means no login systems for likes. It'll most likely be some sort of one-way hash of an IP/useragent salt mix being stored in an SQL database via an AJAX call. This would allow for a "ranking" system where users can vote their most desired tips to the top of a hall-of-fame like list.
+
+Of course, all of it will be open source for the community to see besides the actual database contents.
 
 # Is this competing with the wiki?
 
