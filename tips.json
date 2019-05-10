@@ -3,7 +3,7 @@
       "id":100,
       "text":"The <a href='https://oldschool.runescape.wiki/w/Ancient_mace' target='_blank'>Ancient mace</a> special attack overfills your Prayer points by the amount that you hit. This overcharge does not decay. Attack a dummy in a player-owned house for a maximum of 38 extra Prayer points.",
       "category":0,
-      "image":"test.png"
+      "image":"wew.png"
    },
    {
       "id":101,
@@ -52,7 +52,7 @@
    },
    {
       "id":110,
-      "text":"Click the middle mouse button and drag to easily move the game camera around.",
+      "text":"You don't have to use the arrow keys. Click the middle mouse button and drag to easily move the game camera around.",
       "category":0
    },
    {
@@ -62,12 +62,12 @@
    },
    {
       "id":112,
-      "text":"Raise a kitten every four hours and trade it in for 200 Death runes. The only input is a few pieces of fish.",
+      "text":"Raise a <a href='https://oldschool.runescape.wiki/w/Cat' target='_blank'>Cat</a> every four hours and trade it in for Death runes. The only input is a few pieces of fish. Complete the <a href='https://oldschool.runescape.wiki/w/Ardougne_Diary#Easy' target='_blank'>Easy Ardougne Diaries</a> to double the Death rune reward to 200.",
       "category":0
    },
    {
       "id":113,
-      "text":"Xeric's talisman.",
+      "text":"<a href='https://oldschool.runescape.wiki/w/Xeric%27s_talisman' target='_blank'>Xeric's talisman</a> offers teleports all over Zeah. Getting one as early as possible makes questing, training, and Slayer much easier to achieve.",
       "category":0
    },
    {
@@ -77,12 +77,12 @@
    },
    {
       "id":115,
-      "text":"Birdhouse runs.",
+      "text":"<a href='https://oldschool.runescape.wiki/w/Hunter#Bird_house_trapping' target='_blank'>Birdhouse runs</a> are an excellent source of valuable tree seeds, nests, Hunter experience, and jewelry. It's not uncommon for a single two-minute run to yield nearly 100k in profit.",
       "category":0
    },
    {
       "id":116,
-      "text":"Murky Matt can decant jewelry at the Grand Exchange..",
+      "text":"Stop clogging your bank up with duplicate jewelry of every charge. <a href='https://oldschool.runescape.wiki/w/Murky_Matt_(runes)' target='_blank'>Murky Matt</a> can decant jewelry at the Grand Exchange!",
       "category":0
    },
    {
@@ -97,7 +97,7 @@
    },
    {
       "id":119,
-      "text":"Talk to the range tutor in lumbridge to set arrows to automatically go into your quiver when they are picked up off the ground.",
+      "text":"Talk to the <a href='https://oldschool.runescape.wiki/w/Ranged_combat_tutor' target='_blank'>Ranged combat tutor</a> in Lumbridge to set arrows to automatically go into your quiver when they are picked up off the ground.",
       "category":1
    },
    {
@@ -117,7 +117,7 @@
    },
    {
       "id":123,
-      "text":"Use an item on a deposit box to deposit it without using an interface.",
+      "text":"Use an item directly on a <a href='https://oldschool.runescape.wiki/w/Bank_deposit_box' target='_blank'>Bank deposit box</a> to deposit it without using an interface. Press number key 4 to instantly select the 'All' option.",
       "category":0
    },
    {
@@ -137,7 +137,7 @@
    },
    {
       "id":127,
-      "text":"Use Bones to PEaches tablets to greatly extend trip length.",
+      "text":"Use <a href='https://oldschool.runescape.wiki/w/Bones_to_peaches' target='_blank'>Bones to Peaches</a> tablets to greatly extend trip length. It will turn all bones in your inventory into edible Peaches, which heal 8HP. Get as many bones as possible prior to using a tablet!",
       "category":0
    },
    {
@@ -167,7 +167,7 @@
    },
    {
       "id":133,
-      "text":"Smithing bars into dart tips or unfinished bolts offer a rare opportunity for both smithing experience and a slight profit at the same time. It's also very afkable.",
+      "text":"Smithing bars into dart tips or unfinished bolts offers a rare opportunity for Smithing experience and profit at the same time. The intensity of this task is also very low, as it only requires more bars to be withdrawn and used on an anvil again.",
       "category":0
    },
    {
@@ -227,7 +227,7 @@
    },
    {
       "id":145,
-      "text":"Start doing Slayer tasks as early and often as possible. The Black mask (and further, Slayer helmet) increase accuracy and damage to task monsters by 16.66%. As a result, Slayer becomes some of the best combat experience and money in the game.",
+      "text":"Do Slayer tasks as early and often as possible. The <a href='https://oldschool.runescape.wiki/w/Black_mask' target='_blank'>Black mask</a> or <a href='https://oldschool.runescape.wiki/w/Slayer_helmet' target='_blank'>Slayer helmet</a> increase accuracy and damage against task monsters by 16.67%. As a result, Slayer becomes some of the best combat experience in the game.",
       "category":0
    },
    {
@@ -237,7 +237,7 @@
    },
    {
       "id":147,
-      "text":"Slayer arguably yields its first major reward at level 70. At 70 Slayer, you can begin killing Kurasks in the Relleka Slayer Caves using either Ranged or melee. They're less money than Gargoyles, however.",
+      "text":"Slayer yields its first major reward at level 70. When achieved, you can can kill <a href='https://oldschool.runescape.wiki/w/Kurask' target='_blank'>Kurasks</a> in the Relleka Slayer Caves using either Ranged or melee.",
       "category":0
    },
    {
@@ -262,7 +262,7 @@
    },
    {
       "id":152,
-      "text":"The free-for-all portal at Clan Wars acts an Ornate Pool - it fully removes and heals all debuffs when you leave it. Use a Ring of Dueling to quickly get there and heal.",
+      "text":"The <a href='https://oldschool.runescape.wiki/w/Clan_Wars#Free_for_all' target='_blank'>free for all portal</a> at Clan Wars acts an <a href='https://oldschool.runescape.wiki/w/Ornate_rejuvenation_pool' target='_blank'>Ornate rejuvination pool</a>. it fully removes and heals all debuffs when you enter it. Use a Ring of Dueling to quickly get there.",
       "category":0
    },
    {
@@ -277,7 +277,7 @@
    },
    {
       "id":155,
-      "text":"Using MouseKeys is actually allowed by the game rules. The legal distinction is, one action per one action.",
+      "text":"Using <a href='https://oldschool.runescape.wiki/w/Mouse_keys#Legality' target='_blank'>Mouse Keys</a> is actually allowed by the game rules, as it is a common accessibility feature in most modern operating systems.",
       "category":0
    },
    {
