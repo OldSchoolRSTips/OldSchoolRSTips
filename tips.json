@@ -1,7 +1,7 @@
 [
    {
       "id":100,
-      "text":"<a href='https://oldschool.runescape.wiki/w/Ancient_mace' target='_blank'>Ancient mace</a> special attack overfills your prayer points by the amount that you hit, and the bonus has no decay. Use this on a dummy (as the dummy always hits max) in your player owned house, adding such additional benefits like an undead dummy, Void armor, Salve amulet, spec energy-refilling pools, Dragon battleaxe, and Piety to maximize the benefits of this trick.",
+      "text":"The <a href='https://oldschool.runescape.wiki/w/Ancient_mace' target='_blank'>Ancient mace</a> special attack overfills your Prayer points by the amount that you hit. This overcharge does not decay. Attack a dummy in a player-owned house for a maximum of 38 extra Prayer points.",
       "category":0,
       "image":"wew.png"
    },
@@ -12,7 +12,7 @@
    },
    {
       "id":102,
-      "text":"Farming contracts in the Farming Guild often pay for themselves due to the valuable seeds they give as rewards.",
+      "text":"<a href='https://oldschool.runescape.wiki/w/Farming_contract' target='_blank'>Contracts</a> in the Farming Guild often pay for themselves due to the valuable seeds they give as rewards.",
       "category":0
    },
    {
@@ -57,12 +57,12 @@
    },
    {
       "id":111,
-      "text":"Use Runelite.",
+      "text":"Use Runelite instead of the legacy client. It adds tons of modernized features and improvements that make the game run and play like a modern game.",
       "category":0
    },
    {
       "id":112,
-      "text":"Cat death runes.",
+      "text":"Raise a kitten every four hours and trade it in for 200 Death runes. The only input is a few pieces of fish.",
       "category":0
    },
    {
@@ -72,7 +72,7 @@
    },
    {
       "id":114,
-      "text":"Get varrock staves as early as possible.",
+      "text":"When <a href='https://oldschool.runescape.wiki/w/Varrock_Diary' target='_blank'>Varrock diaries</a> are unlocked, <a href='https://oldschool.runescape.wiki/w/Zaff' target='_blank'>Zaff</a> will allow the player to buy discounted battlestaves in large quanitites every day. They can be instantly resold for a profit.",
       "category":0
    },
    {
@@ -87,17 +87,12 @@
    },
    {
       "id":117,
-      "text":"Count Check offers a one-time instant teleport from Lumbridge to the Stronghold of Security, where you will earn 10,000 GP upon completion. Spam click the doors to skip the questions.",
+      "text":"<a href='https://oldschool.runescape.wiki/w/Count_Check' target='_blank'>Count Check</a> offers a one-time instant teleport from Lumbridge to the Stronghold of Security, where you will earn 10,000 GP upon completion. Spam click the doors to skip the questions.",
       "category":1
    },
    {
-      "id":117,
-      "text":"Clan wars portal acts an Ornate Pool - it removes and heals all debuffs and stats.",
-      "category":0
-   },
-   {
       "id":118,
-      "text":"Suicide on Jad to skip his slayer task for free.",
+      "text":"Suicide in the Fight Caves by using a rock cake or just by simply wearing no armor to quickly skip your Jad Slayer task for free.",
       "category":0
    },
    {
@@ -127,12 +122,12 @@
    },
    {
       "id":124,
-      "text":"Claim free runes from the rune tutor in Lumbridge every 30 minutes.",
+      "text":"As a new player, you may claim free runes from the <a href='https://oldschool.runescape.wiki/w/Magic_combat_tutor' target='_blank'>Magic combat tutor</a> in Lumbridge every 30 minutes. Consume them and claim more as often as possible for free Magic experience.",
       "category":1
    },
    {
       "id":125,
-      "text":"Use minigame teleports. They are free.",
+      "text":"Use the free <a href='https://oldschool.runescape.wiki/w/Minigame_Group_Finder' target='_blank'>Minigame teleports</a> feature to access various useful and important areas instead of manually travelling. They have no skill or quest requirements.",
       "category":0
    },
    {
@@ -162,12 +157,12 @@
    },
    {
       "id":131,
-      "text":"The Warrior Ring is a very affordable ring for early melee training. It gives a +4 slash bonus, which increases the hit chance of all slash weapons.",
+      "text":"The <a href='https://oldschool.runescape.wiki/w/Warrior_ring' target='_blank'>Warrior ring</a> is a very affordable ring for melee combat. It gives a +4 slash bonus, which increases the hit chance of slash weapons like Scimitars.",
       "category":0
    },
    {
       "id":132,
-      "text":"Monk robes are a very cheap source of prayer bonus. They are especially useful during wilderness Slayer tasks. Don't forget to carry leather for tip <a>#121</a>, though!",
+      "text":"Monk robes are a very cheap source of prayer bonus. They are especially useful during wilderness Slayer tasks.",
       "category":0
    },
    {
@@ -182,17 +177,17 @@
    },
    {
       "id":135,
-      "text":"The Runelite client has a GPU renderer plugin that increases the efficiency, render distance, and performance (frame rate) of the game. Note: only download it from runelite.net - as it's an open source project, many make malicious clones of it that steal accounts.",
+      "text":"The Runelite client has a <a href='https://github.com/runelite/runelite/wiki/GPU' target='_blank'>GPU renderer</a> plugin that increases the efficiency, graphical quality, render distance, and performance of the game. The legacy client renders on a single CPU core, resulting in performance issues for many.",
       "category":0
    },
    {
       "id":136,
-      "text":"To train magic quickly at an early level, have a friend wear metal armor, stand idle, and drink wine in the Clan Wars free-for-all area while you cast Fire strike on them. Alternatively, low level players may cast this on each other, but they will need to heal frequently.",
+      "text":"To train Magic quickly, meet a friend in the <a href='https://oldschool.runescape.wiki/w/Clan_Wars#Free_for_all' target='_blank'>Clan Wars</a> free-for-all area and repeatedly auto-cast <a href='https://oldschool.runescape.wiki/w/Fire_Strike' target='_blank'>Fire Strike</a> on each other. Drink <a href='https://oldschool.runescape.wiki/w/Jug_of_wine' target='_blank'>wine</a> to heal, or just die and respawn.",
       "category":1
    },
    {
       "id":137,
-      "text":"To easily travel to Ardougne, bank all your items in Edgeville and pull the wilderness lever (by the Yew tree) twice. It will lead you to the wilderness, and then to Ardougne. Again, bank everything!",
+      "text":"To easily travel to Ardougne without tablets or spells, bank all your items in Edgeville and pull the <a href='https://oldschool.runescape.wiki/w/Ardougne_teleport_lever' target='_blank'>lever</a> in the ruins south of the bank It will lead you to the wilderness, and then to Ardougne when pulled again. Again, bank everything!",
       "category":0
    },
    {
@@ -207,7 +202,7 @@
    },
    {
       "id":140,
-      "text":"Long Bones and Curved Bones can be traded in with Barlak for thousands of free Construction experience.",
+      "text":"Long Bones and Curved Bones can be traded with <a href='https://oldschool.runescape.wiki/w/Barlak' target='_blank'>Barlak</a> for thousands of free Construction experience.",
       "category":0
    },
    {
@@ -222,7 +217,7 @@
    },
    {
       "id":143,
-      "text":"If you're having trouble getting Jagex to do what you want, try typing a few crab emojis on both sides of your request. They will instantly do what you command. It's like mind control or something.",
+      "text":"🦀🦀🦀If you're having trouble getting Jagex to do what you want, try typing a few crab emojis on both sides of your request. They will instantly do what you command. It's like mind control or something.🦀🦀🦀",
       "category":0
    },
    {
@@ -247,7 +242,7 @@
    },
    {
       "id":148,
-      "text":"To easily and cheaply train crafting, get a glass blowing pipe and molten glass. Experience rates are roughly 90-100k an hour, it requires very little attention, and the cost per experience is around 1-3gp.",
+      "text":"To cheaply train Crafting, buy a glass blowing pipe and some molten glass. Experience rates are roughly 90-100k an hour, it requires very little attention, and the cost per experience is around 1-3gp.",
       "category":0
    },
    {
@@ -257,12 +252,57 @@
    },
    {
       "id":150,
-      "text":"Slayermusiq1's quest guides and the official wiki's own guides are the two most popular quest guide outlets for the game.",
+      "text":"<a href='https://www.youtube.com/user/slayermusiq1' target='_blank'>Slayermusiq1's guides</a> and the official wiki's own guides are the two most popular quest guide resources for the game.",
       "category":0
    },
    {
       "id":151,
-      "text":"Do Romeo and Juliet, Cook's Assistant, and Sheep Shearer to quickly obtain 7 Quest Points and get immediate access to the Grand Exchange item sell block list.",
+      "text":"Do Romeo and Juliet, Cook's Assistant, and Sheep Shearer to quickly obtain 7 Quest Points and get immediate sell access to the <a href='https://oldschool.runescape.wiki/w/Account#New_account_restrictions' target='_blank'>list of protected items</a> on the Grand Exchange.",
       "category":1
+   },
+   {
+      "id":152,
+      "text":"The free-for-all portal at Clan Wars acts an Ornate Pool - it fully removes and heals all debuffs when you leave it. Use a Ring of Dueling to quickly get there and heal.",
+      "category":0
+   },
+   {
+      "id":153,
+      "text":"RuneLite has a <a href='https://github.com/runelite/runelite/wiki/Bank-Tags' target='_blank'>Bank Tags</a> feature that allows you to consolidate all items fitting a custom tag into their own \"virtual\" tab on the left hand side.",
+      "category":0
+   },
+   {
+      "id":154,
+      "text":"Don't bury your bones! Instead, use a public house in the <a href='https://oldschool.runescape.wiki/w/House_party' target='_blank'>House Party</a> world. Using your bones on their altar yields a free +350% Prayer experience multiplier, and it's automatic! Un-note bones using <a href='https://oldschool.runescape.wiki/w/Phials' target='_blank'>Phials</a> nearby.",
+      "category":0
+   },
+   {
+      "id":155,
+      "text":"Using MouseKeys is actually allowed by the game rules. The legal distinction is, one action per one action.",
+      "category":0
+   },
+   {
+      "id":156,
+      "text":"RuneLite has a <a href='https://github.com/runelite/runelite/wiki/Bank-Value' target='_blank'>Bank Value</a> feature that shows you a realtime price evaluation of your entire bank based on the GE prices of all the items in it.",
+      "category":0
+   },
+   {
+      "id":157,
+      "text":"RuneLite can track and price-evaluate monster drops and loot in realtime thanks to its <a href='https://github.com/runelite/runelite/wiki/Loot-Tracker' target='_blank'>Loot Tracker</a> plugin.",
+      "category":0
+   },
+   {
+      "id":158,
+      "text":"Sick of right clicking on everything because the useful option is on the bottom of the list? RuneLite's' <a href='https://github.com/runelite/runelite/wiki/Menu-Entry-Swapper' target='_blank'>Menu Entry Swapper</a> forcefully moves the favorite options to the top of the list.",
+      "category":0
+   },
+   {
+      "id":159,
+      "text":"If you've ever wondered when you'll regenerate a hitpoint or other stat, RuneLite has a <a href='https://github.com/runelite/runelite/wiki/Regeneration-Meter' target='_blank'>Regeneration Meter</a> plugin that shows you these timers in realtime.",
+      "category":0
+   },
+   {
+      "id":160,
+      "text":"Is the GUI too small on your high resolution monitor? Put away the magnifying glass. RuneLite's <a href='https://github.com/runelite/runelite/wiki/Stretched-Mode' target='_blank'>Stretched Mode</a> offers crisp magnification for both Fixed and Resizable mode. Tick <u>all three</u> boxes!",
+      "category":0
    }
 ]
