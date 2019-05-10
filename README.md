@@ -28,9 +28,9 @@ Of course, all of it will be open source for the community to see besides the ac
 
 No, I love the wiki and contribute to it all the time. In fact, this tip database regularly links directly *to* the wiki.
 
-However, the wiki is a wiki. It's not a catalog. It's an encyclopedic compilation of knowledge, and some pages can be very large.
+However, the wiki is a wiki. It's not a catalog. It's an organized encyclopedic compilation of media and knowledge, and some pages can be very large.
 
-It's also different in its legal contractual obligations. The wiki is not allowed to discuss anything third-party, as Jagex's contract requires in exchange for them being the "official" wiki. On the plus size, the information there is more pure and focused. On the downside, we're not allowed to talk about things like RuneLite, mousekeys, etc, that virtually the entire community uses at this point. That alone leaves a pretty big gap, which we can fulfill.
+It's also different in its legal contractual obligations. The wiki is not allowed to discuss anything third-party, as Jagex's contract requires in exchange for them being the "official" wiki. On the plus size, the information there is more pure and focused. On the downside, we're not allowed to talk about things like RuneLite, mousekeys, etc, that virtually the entire community uses at this point. That alone leaves a pretty big gap, which we can fill.
 
 The majority of content, videos, software, tools, and resources are actually *not* created by Jagex. People need a place to discover new information that doesn't involve a deep Google search or asking someone else.
 
