@@ -1,6 +1,6 @@
 # To-do
 
-1. ~~~Convert re-roll to AJAX to prevent page reloading and flickering~~~
+1. ~~Convert re-roll to AJAX to prevent page reloading and flickering~~
 2. Complete the rest of the current tips
 3. Add wiki links to as many existing tips as possible
 4. All subcategories get subdomain and their own json list. Ex: http://f2p.oldschoolrs.tips references tips_f2p.json and has a different wallpaper.
