@@ -65,7 +65,7 @@ echo "<span>
 </span>";
 
 echo "<span>
-<a href='index.php'>🎲</a>
+<a href='/'>🎲</a>
 </span>";
 echo "</div>";
 
