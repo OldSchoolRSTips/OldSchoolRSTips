@@ -10,7 +10,7 @@
 		var _tips = "";
 		var firstLoad = true;
 
-		function loadJSON(jpath)
+		function loadJSON(jpath) //loads "tips.json" into memory
 		{
 			var result = null;
 			var xmlhttp = new XMLHttpRequest();
@@ -36,15 +36,14 @@
 				firstLoad = false;
 				reRoll(); //only do if empty
 			}
-			//alert(_tips);
 		}
 
-		function realRandom(min, max)
+		function realRandom(min, max) //js randomizer sucks
 		{
 			return Math.floor(Math.random() * (max - min)) + min;
 		}
 
-		function reRoll()
+		function reRoll() //asynchronous content changer - no more page reloading
 		{
 			var roll = realRandom( 0, Object.keys(_tips).length );
 			document.getElementById("tip").innerHTML = "<h1>Tip #"+_tips[roll].id+"</h1>";
@@ -76,8 +75,6 @@ if( isset($_GET["tip"]) && $_GET["tip"] >= 100 ) //tips start at 100, not 1
 }
 else if ( !isset($_GET["tip"]) ) //todo: kill this and replace it with javascript?
 {
-	//$result = mt_rand( 0, count($TIPS) );
-	//if ( $result === count($TIPS) ) $result--;
 	$resultID = null;
 	$resultText = "";
 }
@@ -91,12 +88,10 @@ echo "<div id='tip'>";
 
 echo "<h1 id='tipH1'>";
 echo "Tip #";
-//echo $TIPS[$result]["id"];
 echo $resultID;
 echo "</h1>";
 
 echo "<p id='tipParagraph'>";
-//echo $TIPS[$result]["text"]."<br>";
 echo $resultText;
 echo "</p>";
 echo "</div>";
