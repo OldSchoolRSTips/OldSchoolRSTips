@@ -39,3 +39,11 @@ tldr:
 
 OldSchoolRSTips = catalog, bite-sized information, with third party software discussion (within the rules of the game)
 Official wiki = notable content, large information, no third party discussion (even if it's allowed by the rules)
+
+# Source Files Explanation
+
+Files in parentheses have not been added yet.
+
+## index.php
+## .htaccess
+## main.css
