@@ -6,6 +6,7 @@
 * Improve all existing tips as much as possible
 * Add more tips
 * All subcategories get subdomain and their own json list. Ex: http://f2p.oldschoolrs.tips references tips_f2p.json and has a different wallpaper:
+* general
 * f2p
 * noob
 * pvp
