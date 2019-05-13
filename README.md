@@ -1,12 +1,16 @@
 # To-do
 
-1. ~~Convert re-roll to AJAX to prevent page reloading and flickering~~
-2. ~~Complete the rest of the current tips~~
-3. Add wiki links to as many existing tips as possible
-3. Improve all existing tips as much as possible
-3. Add more tips
-4. All subcategories get subdomain and their own json list. Ex: http://f2p.oldschoolrs.tips references tips_f2p.json and has a different wallpaper.
-5. tips_general.json shall contain all general tips. Gamestyle-specific ones will be offloaded into specialized JSON files and put on a special subdomain.
+* ~~Convert re-roll to AJAX to prevent page reloading and flickering~~
+* ~~Complete the rest of the current tips~~
+* Add wiki links to as many existing tips as possible
+* Improve all existing tips as much as possible
+* Add more tips
+* All subcategories get subdomain and their own json list. Ex: http://f2p.oldschoolrs.tips references tips_f2p.json and has a different wallpaper:
+* f2p
+* noob
+* pvp
+* iron
+* tips_general.json shall contain all general tips. Gamestyle-specific ones will be offloaded into specialized JSON files and put on a special subdomain.
 
 # What is OldSchoolRS.Tips?
 
