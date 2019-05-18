@@ -1,17 +1,9 @@
 # To-do
 
-* ~~Convert re-roll to AJAX to prevent page reloading and flickering~~
-* ~~Complete the rest of the current tips~~
 * Add wiki links to as many existing tips as possible
 * Improve all existing tips as much as possible
-* Add more tips
-* All subcategories get subdomain and their own json list. Ex: http://f2p.oldschoolrs.tips references tips_f2p.json and has a different wallpaper:
-* general
-* f2p
-* noob
-* pvp
-* iron
-* tips_general.json shall contain all general tips. Gamestyle-specific ones will be offloaded into specialized JSON files and put on a special subdomain.
+* Add many more tips - please suggest!
+* Different wallpapers per category
 
 # What is OldSchoolRS.Tips?
 
