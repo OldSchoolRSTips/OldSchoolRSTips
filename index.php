@@ -4,13 +4,51 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="icon" type="image/png" href="daggers.png" />
 
-	<title>OSRS Tips</title>
+	<title>OSRS Tips - The free and open source community-made tips database for Old School RuneScape players of all types</title>
 
 	<script>
 		var _tips = "";
+		var _subdomain = "";
 		var firstLoad = true;
 
-		function loadJSON(jpath) //loads "tips.json" into memory
+		function getSubdomain()
+		{
+			var URL = window.location.host;
+			var splits = URL.split('.');
+			var subdomain = splits[0];
+			return subdomain;
+		}
+
+		function setSlogan(newSlogan)
+		{
+			document.getElementById("slogan").innerHTML = newSlogan;
+		}
+
+		function getUrlVars(variable)
+		{
+			var query = window.location.search.substring(1);
+			var vars = query.split("&");
+
+			for (var i=0; i<vars.length; i++)
+			{
+				var pair = vars[i].split("=");
+				if(pair[0] == variable){ return pair[1]; }
+			}
+			return(false);
+		}
+
+		function like()
+		{
+			alert("The beloved Like feature is not yet complete. Just pretend you see a number between 1 and 150 until it's released. Keep an eye on the GitHub repo for news!");
+		}
+
+		function comment()
+		{
+			alert("The beloved Comment feature is not yet complete. Setup with Disqus is still pending. To provide feedback, please use GitHub for now.");
+
+		}
+
+		function loadJSON(jpath)
 		{
 			var result = null;
 			var xmlhttp = new XMLHttpRequest();
@@ -27,97 +65,113 @@
 
 		function init()
 		{
+			_subdomain = getSubdomain();
+			_jsonfile = ""
 
-			_tips = loadJSON("tips.json");
-			_tips = JSON.parse(_tips);
-
-			if(document.getElementById("tipParagraph").innerHTML == "" && firstLoad == true)
+			switch(_subdomain)
 			{
-				firstLoad = false;
-				reRoll(); //only do if empty
+				case "f2p":
+					_jsonfile = "tips_f2p.json";
+					setSlogan("New players without membership");
+				break;
+				case "noob":
+					_jsonfile = "tips_noob.json";
+					setSlogan("New players with membership");
+				break;
+				case "iron":
+					_jsonfile = "tips_iron.json";
+					setSlogan("Tips for the BTWs");
+				break;
+				case "pvp":
+					_jsonfile = "tips_pvp.json";
+					setSlogan("Spade chasing");
+				break;
+				default:
+					_jsonfile = "tips_general.json";
+			} 
+
+			_tips = loadJSON(_jsonfile);
+			_tips = JSON.parse(_tips);
+			var _get; 
+
+
+			var parsedUrl = new URL(window.location);
+			var newUrl = parsedUrl.pathname;
+			_get = newUrl.replace("/", "");
+
+
+			if( _get == false )
+			{
+				randRoll();
 			}
+			else
+			{
+				permRoll(_get);
+				window.history.pushState("", "", _get);
+			}
+
 		}
 
 		function realRandom(min, max) //js randomizer sucks
 		{
-			return Math.floor(Math.random() * (max - min)) + min;
+			return Math.floor( Math.random() * (max - min) ) + min;
 		}
 
-		function reRoll() //asynchronous content changer - no more page reloading
+		function randRoll() //rolls a random tip and sets it
 		{
 			var roll = realRandom( 0, Object.keys(_tips).length );
 			document.getElementById("tip").innerHTML = "<h1>Tip #"+_tips[roll].id+"</h1>";
 			document.getElementById("tip").innerHTML += "<p>"+_tips[roll].text+"</p>";
-			document.getElementById("permalink").innerHTML = "<a href='?tip="+_tips[roll].id+"'>🔗</a>";
+			window.history.pushState("", "", roll+100);
+		}
+
+		function permRoll(get) //loads a specific tip
+		{
+			get -= 100; //starts at 100!
+			document.getElementById("tip").innerHTML = "<h1>Tip #"+_tips[get].id+"</h1>";
+			document.getElementById("tip").innerHTML += "<p>"+_tips[get].text+"</p>";
 		}
 	</script>
+		<!-- Global site tag (gtag.js) - Google Analytics, for all you curious readers -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65007791-3"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-65007791-3');
+	</script>
+
 </head>
 <body onLoad="init();">
 <div id="background"></div>
 <?PHP
 
-$TIPS = file_get_contents("tips.json");
-$TIPS = json_decode($TIPS, true);
-
-echo "<h1>OldSchoolRS Tips</h1>";
-echo "<p style=\"margin-left:46px; margin-top:-20px; font-size:22px;\">By players. For players.</p>";
-
-$result = NULL;
-
-
-
-if( isset($_GET["tip"]) && $_GET["tip"] >= 100 ) //tips start at 100, not 1
-{
-	$result = (int) $_GET["tip"];
-	$result -= 100;
-	$resultID = $TIPS[$result]["id"];
-	$resultText = $TIPS[$result]["text"];
-}
-else if ( !isset($_GET["tip"]) ) //todo: kill this and replace it with javascript?
-{
-	$resultID = null;
-	$resultText = "";
-}
-else
-{
-	die("<p>Go away, Jed.</p>");
-}
-
+echo "<h1>OldSchoolRS.Tips (Beta)</h1>";
+echo "<p id=\"slogan\" style=\"margin-left:16px; margin-top:-20px; font-size:22px;\">By players. For players.</p>";
 
 echo "<div id='tip'>";
-
 echo "<h1 id='tipH1'>";
-echo "Tip #";
-echo $resultID;
 echo "</h1>";
-
 echo "<p id='tipParagraph'>";
-echo $resultText;
 echo "</p>";
 echo "</div>";
-
 echo "<div id='shelf'>";
 
-echo "<span id='permalink'>
-<a href='?tip={$TIPS[$result]["id"]}'>🔗</a>
-</span>";
-
 echo "<span onClick='like();'>
-❤️
+❤️0
 </span>";
 
-echo "<span>
-<a href='https://github.com/OldSchoolRSTips/OldSchoolRSTips/issues/new?title=Feedback%20on%20tip%20number%20{$TIPS[$result]["id"]}&body=These%20are%20my%20comments,%20questions,%20and%20suggestions:'>🗨️
-</a>
+echo "<span onClick='comment();'>
+🗨️0
 </span>";
 
-echo "<span onClick='reRoll();'>
+echo "<span onClick='randRoll();'>
 🎲
 </span>";
 echo "</div>";
 
 echo "<div id='footer'>";
-echo "<span>Top tips(soon) | New player tips(soon) | Ironman tips(soon) | <a href='https://github.com/OldSchoolRSTips/OldSchoolRSTips/blob/master/tips.json' target='_blank'>Browse all</a> | <a href='https://github.com/OldSchoolRSTips/OldSchoolRSTips/issues/new?title=Suggestion&body=Idea:' target='_blank'>Suggest a tip</a> | <a href='https://github.com/OldSchoolRSTips/OldSchoolRSTips' target='_blank'>GitHub Repository</a></span>";
+echo "<span><a href='http://oldschoolrs.tips'>Home</a> | <a href='http://noob.oldschoolrs.tips'>New players</a> | F2P (soon) | PvP (soon) | Ironman (soon) | <a href='https://github.com/OldSchoolRSTips/OldSchoolRSTips/issues/new?title=Suggestion&body=Idea:' target='_blank'>Suggest a tip</a> | <a href='https://github.com/OldSchoolRSTips/OldSchoolRSTips' target='_blank'>GitHub</a></span>";
 echo "</div>";
 ?>
 </body>
