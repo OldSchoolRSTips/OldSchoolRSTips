@@ -1,9 +1,12 @@
 # To-do
 
+* Categories in JSON with tiny category icons to the far right of the tip number
 * Add wiki links to as many existing tips as possible
-* Improve all existing tips as much as possible
-* Add many more tips - please suggest!
 * Different wallpapers per category
+* Tip favoriting/liking
+* Prevent the same tip from being rolled twice in a row
+* Different font for the site header/slogan
+* Mobile stylesheet
 
 # What is OldSchoolRS.Tips?
 
