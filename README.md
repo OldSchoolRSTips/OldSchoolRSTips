@@ -1,12 +1,16 @@
 # To-do
 
-* Categories in JSON with tiny category icons to the far right of the tip number
+* JS changes title
+* Proper landing page and SEO/metatags
+* Start at #1, not #100
+* Category icons to the right of the title
 * Add wiki links to as many existing tips as possible
 * Different wallpapers per category
 * Tip favoriting/liking
 * Prevent the same tip from being rolled twice in a row
 * Different font for the site header/slogan
 * Mobile stylesheet
+* See Also section that links to other tips
 
 # What is OldSchoolRS.Tips?
 
