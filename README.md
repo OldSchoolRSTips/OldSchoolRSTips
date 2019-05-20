@@ -1,14 +1,16 @@
 # To-do
 
+
 * Basic forward and back
 * JS changes title
 * Proper landing page and SEO/metatags
 * Start at #1, not #100
-* Category icons to the right of the title
+* Category icons to the right of the title (click them to alert what they mean: "This is an x category")
 * Add wiki links to as many existing tips as possible
 * Different wallpapers per category
 * Tip favoriting/liking
 * Prevent the same tip from being rolled twice in a row
+* Prevent the same tip from being rolled twice in the same session (history button at bottom right, prayer brain icon?)
 * Different font for the site header/slogan
 * Mobile stylesheet
 * See Also section that links to other tips
