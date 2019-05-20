@@ -1,5 +1,6 @@
 # To-do
 
+* Basic forward and back
 * JS changes title
 * Proper landing page and SEO/metatags
 * Start at #1, not #100
