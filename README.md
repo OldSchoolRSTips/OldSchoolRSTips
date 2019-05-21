@@ -2,7 +2,7 @@
 
 
 * Basic forward and back
-* JS changes title
+* JS changes the page title
 * Proper landing page and SEO/metatags
 * Start at #1, not #100
 * Category icons to the right of the title (click them to alert what they mean: "This is an x category")
