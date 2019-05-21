@@ -1,4 +1,4 @@
-﻿[
+[
    {
       "id":100,
       "text":"Complete the <a href='https://oldschool.runescape.wiki/w/Waterfall_Quest/Quick_guide' target='_blank'>Waterfall Quest</a> to get an immediate 13,750 experience boost to both Attack and Strength. At level 1, this is an immediate boost to <a href='https://oldschool.runescape.wiki/w/Experience#Levels_1-99' target='_blank'>level 30</a>."
@@ -17,7 +17,7 @@
    },
    {
       "id":104,
-      "text":"Purchase an Amulet of Glory and Warrior's Bracelet as soon as possible. They are BiS (best-in-slot) for a very long time, and have no level requirements."
+      "text":"Purchase an <a href='https://oldschool.runescape.wiki/w/Amulet_of_glory' target='_blank'>Amulet of Glory</a> and <a href='https://oldschool.runescape.wiki/w/Combat_bracelet' target='_blank'>Combat Bracelet</a> as soon as possible. They are BiS (best-in-slot) for a very long time, and have no level requirements."
    },
    {
       "id":105,
@@ -37,6 +37,10 @@
    },
    {
       "id":109,
-      "text":"Don't bury your bones! Instead, use a public house in the <a href='https://oldschool.runescape.wiki/w/House_party' target='_blank'>House Party</a> world. Using your bones on their altar yields a free +350% Prayer experience multiplier, and it's automatic! Un-note bones using <a href='https://oldschool.runescape.wiki/w/Phials' target='_blank'>Phials</a> nearby."
+      "text":"Don't bury your bones! Instead, use a public house at Rimmington in the <a href='https://oldschool.runescape.wiki/w/House_party' target='_blank'>House Party</a> world. Using your bones on their altar yields a free +350% Prayer experience multiplier, and it's automatic! Un-note bones using <a href='https://oldschool.runescape.wiki/w/Phials' target='_blank'>Phials</a> nearby."
+   },
+   {
+      "id":110,
+      "text":"Don't drop the produce! Use goods harvested from Farming patches on any <a href='https://oldschool.runescape.wiki/w/Tool_Leprechaun' target='_blank'>Tool Leprechaun</a> to get them instantly noted for free."
    }
 ]
