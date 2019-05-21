@@ -1,10 +1,14 @@
-﻿[
+[
    {
-      "id":111,
+      "id":100,
       "text":"Do Romeo and Juliet, Cook's Assistant, and Sheep Shearer to quickly obtain 7 Quest Points and get immediate sell access to the <a href='https://oldschool.runescape.wiki/w/Account#New_account_restrictions' target='_blank'>list of protected items</a> on the Grand Exchange."
    },
    {
-      "id":111,
+      "id":101,
       "text":"As a new player, you may claim free runes from the <a href='https://oldschool.runescape.wiki/w/Magic_combat_tutor' target='_blank'>Magic combat tutor</a> in Lumbridge every 30 minutes. Consume them and claim more as often as possible for free Magic experience."
+   },
+   {
+      "id":102,
+      "text":"Bones are one of the select few items that are exempt from the 24-hour trade restriction list. Sell bones you get from Chickens, Cows, etc on the Grand Exchange for 100+ GP!"
    }
 ]
