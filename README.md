@@ -1,6 +1,7 @@
 # To-do
 
 
+* Instantaneous realtime search tool
 * Basic forward and back
 * JS changes the page title
 * Proper landing page and SEO/metatags
