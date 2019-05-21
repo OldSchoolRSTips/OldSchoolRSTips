@@ -17,7 +17,7 @@
 
 # What is OldSchoolRS.Tips?
 
-It's a delivery vessel I designed that's sole job is to give individual bits of information from the tips file (tips.json) to users. All tips are bite-sized, community-sourced, weighted equally, and anyone can submit one via a pull request.
+It's a website that hosts a database of the Old School RuneScape community's favorite tips and tidbits of information. If OSRS had loading screen tips, this would be what it would show. All tips are bite-sized, community-sourced, weighted equally, and anyone can submit one via a pull request. The behavior of the site is random by design - you never know what tip you'll roll next.
 
 # Why?
 
