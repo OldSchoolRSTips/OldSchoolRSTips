@@ -1,4 +1,4 @@
-﻿[
+[
    {
       "id":100,
       "text":"The <a href='https://oldschool.runescape.wiki/w/Ancient_mace' target='_blank'>Ancient mace</a> special attack overfills your Prayer points by the amount that you hit. This overcharge does not decay. Attack a dummy in a player-owned house for a maximum of 38 extra Prayer points.",
@@ -6,7 +6,7 @@
    },
    {
       "id":101,
-      "text":"An Amulet of Glory can be <a href='https://oldschool.runescape.wiki/w/Amulet_of_Glory_(mounted)' target='_blank'>mounted</a> in your house at 47 Construction. It has unlimited teleport charges.",
+      "text":"An Amulet of Glory can be <a href='https://oldschool.runescape.wiki/w/Amulet_of_Glory_(mounted)' target='_blank'>mounted</a> in your house at 47 Construction, or as low as 39 Construction if you boost your level using a <a href='https://oldschool.runescape.wiki/w/Crystal_saw' target='_blank'>Crystal saw</a> and a bowl of <a href='https://oldschool.runescape.wiki/w/Spicy_stew' target='_blank'>Spicy stew</a>. It will have infinite charges once mounted.",
       "category":0
    },
    {
@@ -91,12 +91,12 @@
    },
    {
       "id":118,
-      "text":"Suicide in the Fight Caves by using a rock cake or just by simply wearing no armor to quickly skip your Jad Slayer task for free.",
+      "text":"Quickly skip your Jad Slayer task for free by entering and exiting the fight caves, or by simply dying.",
       "category":0
    },
    {
       "id":119,
-      "text":"",
+      "text":"A Chapel and Altar can be built in your house as early as 40 Construction if you use <a href='https://oldschool.runescape.wiki/w/Spicy_stew' target='_blank'>Spicy stew</a>. An altar immediately refreshes Prayer Points.",
       "category":1
    },
    {
@@ -111,7 +111,7 @@
    },
    {
       "id":122,
-      "text":"",
+      "text":"Rapidly click an Allotment or Herb patch to begin harvesting it a double the normal rate.",
       "category":0
    },
    {
@@ -121,7 +121,7 @@
    },
    {
       "id":124,
-      "text":"",
+      "text":"The Blast Furnace has a shop that sells ores for less than their Grand Exchange value.",
       "category":1
    },
    {
@@ -131,7 +131,7 @@
    },
    {
       "id":126,
-      "text":"Rock crabs have a negative range Defence bonus.",
+      "text":"Rock crabs, Sand crabs, and Ammonite crabs have a negative Defence bonus and very low attack. Therefore, they are an excellent source of idle Ranged experience.",
       "category":0
    },
    {
@@ -181,7 +181,7 @@
    },
    {
       "id":136,
-      "text":"",
+      "text":"The range found in the Hosidious Kitchen has a very low burn rate. When used alongside Cooking Gauntlets, cooking a food at the minimum required level typically burns at a rate of less than 4%.",
       "category":1
    },
    {
@@ -211,7 +211,7 @@
    },
    {
       "id":142,
-      "text":"",
+      "text":"The Tithe Farm minigame, north of Xeric's Glade, offers many useful rewards such as an infinite watering can and the ability to disable the growth of weeds in patches game-wide.",
       "category":0
    },
    {
@@ -256,7 +256,7 @@
    },
    {
       "id":151,
-      "text":"",
+      "text":"Plank Make is one of the best idle sources of cost-free Magic experience in the game. Experience rates are roughly 80k to 85k an hour, and sometimes even give a slight profit.",
       "category":1
    },
    {
@@ -271,7 +271,7 @@
    },
    {
       "id":154,
-      "text":"Don't bury your bones! Instead, use a public house in the <a href='https://oldschool.runescape.wiki/w/House_party' target='_blank'>House Party</a> world. Using your bones on their altar yields a free +350% Prayer experience multiplier, and it's automatic! Un-note bones using <a href='https://oldschool.runescape.wiki/w/Phials' target='_blank'>Phials</a> nearby.",
+      "text":"Don't bury your bones! Instead, use a public house at Rimmington in the <a href='https://oldschool.runescape.wiki/w/House_party' target='_blank'>House Party</a> world. Using your bones on their altar yields a free 350% Prayer experience multiplier, and it's automatic! Un-note bones using <a href='https://oldschool.runescape.wiki/w/Phials' target='_blank'>Phials</a> nearby.",
       "category":0
    },
    {
@@ -291,7 +291,7 @@
    },
    {
       "id":158,
-      "text":"Sick of right clicking on everything because the useful option is on the bottom of the list? RuneLite's' <a href='https://github.com/runelite/runelite/wiki/Menu-Entry-Swapper' target='_blank'>Menu Entry Swapper</a> forcefully moves the favorite options to the top of the list.",
+      "text":"Sick of right clicking on everything because the useful option is on the bottom of the list? RuneLite's <a href='https://github.com/runelite/runelite/wiki/Menu-Entry-Swapper' target='_blank'>Menu Entry Swapper</a> forcefully moves the favorite options to the top of the list.",
       "category":0
    },
    {
@@ -308,5 +308,29 @@
       "id":161,
       "text":"Do you miss the <a href='2004.gif' target='_blank'>original interface</a> from 2004? Runelite has an <a href='https://github.com/runelite/runelite/wiki/Interface-Styles' target='_blank'>Interface Styles</a> plugin that can replace the current interface with the classic one from 2004, as well as the one made around 2010.",
       "category":0
+   },
+   {
+      "id":162,
+      "text":"Enable Sticky Keys and Shift-to-drop to drop items while skilling without needing to press Shift."
+   },
+   {
+      "id":163,
+      "text":"Carrying a Law rune and several of each combo rune effectively provides a teleport spell to anywhere while using as few inventory spaces as possible. Add them to a Rune pouch to use two spaces instead of four!"
+   },
+   {
+      "id":164,
+      "text":"A <a href='https://oldschool.runescape.wiki/w/Saradomin_godsword' target='_blank'>Saradomin godsword</a> can be used alongside a spec-refilling pool on a house dummy to heal, making it a possible alternative to investing in the Construction level required to build the final pool."
+   },
+   {
+      "id":165,
+      "text":"Need a quick +3 boost to Construction? Make tea in the gold-leafed cups of another player's house in the House Party world. Drink it, quickly leave, and enter your own home in building mode!"
+   },
+   {
+      "id":166,
+      "text":"Talk to the Magic combat tutor in Lumbridge to enable the automatic addition of picked up runes into your Rune pouch."
+   },
+   {
+      "id":167,
+      "text":"Monsters that are killed during a Slayer task for Konar have an additional drop channel that is exclusive to Konar."
    }
 ]
