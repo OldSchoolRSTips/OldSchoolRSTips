@@ -1,6 +1,6 @@
 # To-do
 
-* Curl tool to move JSON files from GitHub to apache folder
+* Curl tool (Python) to check+move JSON files from GitHub to webserver
 * Switch to sub subdomains for f2p. Ex: f2p.iron.oldschoolrs.tips , f2p.noob.oldschoolrs.tips , f2p.pvp.oldschoolrs.tips
 * Instantaneous realtime search tool
 * Basic forward and back
