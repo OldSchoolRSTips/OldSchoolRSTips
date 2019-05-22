@@ -7,7 +7,7 @@
    {
       "id":101,
       "text":"An Amulet of Glory can be <a href='https://oldschool.runescape.wiki/w/Amulet_of_Glory_(mounted)' target='_blank'>mounted</a> in your house at 47 Construction, or as low as 39 Construction if you boost your level using a <a href='https://oldschool.runescape.wiki/w/Crystal_saw' target='_blank'>Crystal saw</a> and a bowl of <a href='https://oldschool.runescape.wiki/w/Spicy_stew' target='_blank'>Spicy stew</a>. It will have infinite charges once mounted.",
-      "category":0
+      "tags":["travel", "construction"]
    },
    {
       "id":102,
