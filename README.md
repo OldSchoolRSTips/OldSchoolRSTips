@@ -1,6 +1,6 @@
 # To-do
 
-* F2p toggle option. Clicking the gold/silver star toggles it to the other color and includes/filters tips that are tagged as f2p or p2p. No more f2p subdomains.
+* F2p toggle option. Clicking the gold/silver star toggles it to the other color and includes/filters tips that are tagged as f2p or p2p. No more f2p in subdomains - loading a link to an F2p tip automatically turns the F2p filter ON.
 * Anonymous Google Forms tip submission. What is the tip? Who does it pertain to (category)?
 * Curl tool (Python) to check+move JSON files from GitHub to webserver
 * Instantaneous realtime search tool
