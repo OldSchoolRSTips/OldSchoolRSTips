@@ -12,107 +12,107 @@
    {
       "id":102,
       "text":"<a href='https://oldschool.runescape.wiki/w/Farming_contract' target='_blank'>Contracts</a> in the Farming Guild often pay for themselves due to the valuable seeds they give as rewards.",
-      "category":0
+      "tags":["farming"]
    },
    {
       "id":103,
       "text":"Press the Control key when clicking a tile to automatically run instead of walk there.",
-      "category":0
+      "tags":["input"]
    },
    {
       "id":104,
       "text":"Alchemy spells have a warning threshold you can set by right clicking on them. Use this to remove annoying alerts, or even make the warnings more strict.",
-      "category":0
+      "tags":["magic"]
    },
    {
       "id":105,
       "text":"The Escape key can be enabled in your settings to automatically close any open interfaces or windows. This is highly useful when banking or doing repetitive window-heavy tasks.",
-      "category":0
+      "tags":["input"]
    },
    {
       "id":106,
       "text":"You can enable the Shift-to-drop feature in your settings. Pressing shift and clicking an item will automatically drop it without needing to right-click.",
-      "category":0
+      "tags":["input"]
    },
    {
       "id":107,
       "text":"Wine is a very cheap source of healing for players of all levels. For a few GP, they heal 11 hitpoints. They can be used by archers and mages, and even warriors if their attack-draining effects are counteracted by a restore potion.",
-      "category":0
+      "tags":["frugal", "f2p"]
    },
    {
       "id":108,
       "text":"A higher Prayer bonus reduces the rate at which your prayer points drain. If you're using a protection prayer, then it's advised to completely abandon defensive stats and go for as high of a prayer bonus as possible, as the prayer results in 100% invincibility anyways.",
-      "category":0
+      "tags":["prayer", "frugal"]
    },
    {
       "id":109,
       "text":"Add as many teleports as possible to your Player-owned-house and carry a teleport tablet or a Law and Dust rune at all times to effectively have a teleport to anywhere with as little as one inventory space used.",
-      "category":0
+      "tags":["construction", "travel"]
    },
    {
       "id":110,
       "text":"You don't have to use the arrow keys. Click the middle mouse button and drag to easily move the game camera around.",
-      "category":0
+      "tags":["input"]
    },
    {
       "id":111,
       "text":"Use Runelite instead of the legacy client. It adds tons of modernized features and improvements that make the game run and play like a modern game.",
-      "category":0
+      "tags":["runelite"]
    },
    {
       "id":112,
       "text":"Raise a <a href='https://oldschool.runescape.wiki/w/Cat' target='_blank'>Cat</a> every four hours and trade it in for Death runes. The only input is a few pieces of fish. Complete the <a href='https://oldschool.runescape.wiki/w/Ardougne_Diary#Easy' target='_blank'>Easy Ardougne Diaries</a> to double the Death rune reward to 200.",
-      "category":0
+      "tags":["money", "frugal", "magic", "iron"]
    },
    {
       "id":113,
       "text":"<a href='https://oldschool.runescape.wiki/w/Xeric%27s_talisman' target='_blank'>Xeric's talisman</a> offers many low-cost teleports all over Zeah. Getting one as early as possible makes questing, training, and Slayer much easier to achieve.",
-      "category":0
+      "tags":["travel"]
    },
    {
       "id":114,
-      "text":"When <a href='https://oldschool.runescape.wiki/w/Varrock_Diary' target='_blank'>Varrock diaries</a> are unlocked, <a href='https://oldschool.runescape.wiki/w/Zaff' target='_blank'>Zaff</a> will allow the player to buy discounted battlestaves in large quanitites every day. They can be instantly resold for a profit.",
-      "category":0
+      "text":"When <a href='https://oldschool.runescape.wiki/w/Varrock_Diary' target='_blank'>Varrock diaries</a> are unlocked, <a href='https://oldschool.runescape.wiki/w/Zaff' target='_blank'>Zaff</a> will allow the player to buy discounted battlestaves in large quanitites every day. They can be processed, or resold for a profit.",
+      "tags":["money", "crafting", "magic"]
    },
    {
       "id":115,
       "text":"<a href='https://oldschool.runescape.wiki/w/Hunter#Bird_house_trapping' target='_blank'>Birdhouse runs</a> are an excellent source of valuable tree seeds, nests, Hunter experience, and jewelry. It's not uncommon for a single two-minute run to yield nearly 100k in profit.",
-      "category":0
+      "tags":["hunter", "money", "farming", "iron"]
    },
    {
       "id":116,
       "text":"Stop clogging your bank up with duplicate jewelry of every charge. <a href='https://oldschool.runescape.wiki/w/Murky_Matt_(runes)' target='_blank'>Murky Matt</a> can decant jewelry at the Grand Exchange!",
-      "category":0
+      "tags":["organization"]
    },
    {
       "id":117,
       "text":"<a href='https://oldschool.runescape.wiki/w/Wintertodt' target='_blank'>Wintertodt</a> is easier the lower your Hitpoints level, as the damage is percentage based. Do Wintertodt earlier rather than later, and you'll use much less food in the long run!",
-      "category":1
+      "tags":["firemaking", "frugal"]
    },
    {
       "id":118,
       "text":"Quickly skip your Jad Slayer task for free by entering and exiting the fight caves, or by simply dying.",
-      "category":0
+      "tags":["slayer"]
    },
    {
       "id":119,
       "text":"A Chapel and Altar can be built in your house as early as 40 Construction if you use <a href='https://oldschool.runescape.wiki/w/Spicy_stew' target='_blank'>Spicy stew</a>. An altar immediately refreshes Prayer Points.",
-      "category":1
+      "tags":["construction", "prayer"]
    },
    {
       "id":120,
       "text":"Create tiaras for quick early Runecrafting experience. They have no level requirement, and can be a great way to quickly reach a viable milestone if you can afford it.",
-      "category":0
+      "tags":["runecrafting"]
    },
    {
       "id":121,
       "text":"Drink wines, pray Protect from Magic, and wear dragonhide armor to waste the highest amount possible of a pker's runes and time.",
-      "category":0
+      "tags":["pvp", "frugal"]
    },
    {
       "id":122,
       "text":"Rapidly click an Allotment or Herb patch to begin harvesting it a double the normal rate.",
-      "category":0
+      "tags":["farming"]
    },
    {
       "id":123,
