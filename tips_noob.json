@@ -42,5 +42,9 @@
    {
       "id":110,
       "text":"Don't drop the produce! Use goods harvested from Farming patches on any <a href='https://oldschool.runescape.wiki/w/Tool_Leprechaun' target='_blank'>Tool Leprechaun</a> to get them instantly noted for free."
+   },
+   {
+      "id":111,
+      "text":"Complete <a href='https://oldschool.runescape.wiki/w/Tears_of_Guthix' target='_blank'>Tears of Guthix</a> as soon as possible. It can be completed once per week, and gives a heap of experience to your lowest skill when completed."
    }
 ]
