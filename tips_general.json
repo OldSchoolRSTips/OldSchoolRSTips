@@ -331,10 +331,17 @@
    },
    {
       "id":167,
-      "text":"Monsters that are killed during a Slayer task for Konar have an additional drop channel that is exclusive to Konar."
+      "text":"Monsters that are killed during a Slayer task for Konar have an additional drop channel that is exclusive to Konar.",
+      "tags":["slayer"]
    },
    {
       "id":168,
-      "text":"Use the Dodgy Necklace when pickpocketing. It has a chance to protect you from getting stunned if you get caught."
+      "text":"Use the Dodgy Necklace when pickpocketing. It has a chance to protect you from getting stunned if you get caught.",
+      "tags":["thieving"]
+   },
+   {
+      "id":169,
+      "text":"Gloves of Silence offer a 5% reduced chance to fail a pickpocket. Ardougne Medium diaries offer a 10% chance and don't stack. For a worldwide effect, the hard diaries are required.",
+      "tags":["thieving"]
    }
 ]
