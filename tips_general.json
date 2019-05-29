@@ -332,5 +332,9 @@
    {
       "id":167,
       "text":"Monsters that are killed during a Slayer task for Konar have an additional drop channel that is exclusive to Konar."
+   },
+   {
+      "id":168,
+      "text":"Use the Dodgy Necklace when pickpocketing. It has a chance to protect you from getting stunned if you get caught."
    }
 ]
