@@ -7,21 +7,37 @@
 	<title>OSRS Tips - The free and open source community-made tips database for Old School RuneScape players of all types</title>
 
 	<script>
-		var _tips = "";
-		var _subdomain = "";
-		var firstLoad = true;
+    let _tips = "";
 
-		function getSubdomain()
-		{
-			var URL = window.location.host;
-			var splits = URL.split('.');
-			var subdomain = splits[0];
-			return subdomain;
-		}
-
-		function setSlogan(newSlogan)
+    function setSlogan(newSlogan)
 		{
 			document.getElementById("slogan").innerHTML = newSlogan;
+		};
+
+//  Sets slogan and returns the json file relevant to the subdomain.
+		function getDomainFile()
+		{
+			const URL = window.location.host;
+			const splits = URL.split('.');
+			const subdomain = splits[0];
+      
+      switch(subdomain)
+			{
+				case "f2p":
+					setSlogan("New players without membership");
+          return "tips_f2p.json";
+				case "noob":
+					setSlogan("New players with membership");
+          return "tips_noob.json";
+				case "iron":					
+					setSlogan("Tips for the BTWs");
+          return _jsonfile = "tips_iron.json";
+				case "pvp":
+					setSlogan("Spade chasing");
+          return _jsonfile = "tips_pvp.json";
+				default:
+					return _jsonfile = "tips_general.json";
+			} 
 		}
 
 		function getUrlVars(variable)
@@ -45,7 +61,6 @@
 		function comment()
 		{
 			alert("The beloved Comment feature is not yet complete. Setup with Disqus is still pending. To provide feedback, please use GitHub for now.");
-
 		}
 
 		function loadJSON(jpath)
@@ -59,77 +74,75 @@
 			{
 				result = xmlhttp.responseText;
 			}
+  		return result;
+    }
 
-  			return result;
-		}
+    function getTipNumber()
+    {
+      const parsedUrl = new URL(window.location);
+			const newUrl = parsedUrl.pathname;
+      return Number(newUrl.replace("/", ""));
+    }
+
+    function updateTipDisplay(tipData) 
+    {
+      const { tips, tipNumber } = tipData;
+      document.getElementById("tipH1").textContent = `Tip #${tips[tipNumber].id}`;
+      document.getElementById("tipParagraph").innerHTML = `${tips[tipNumber].text}`;
+    }
+
+    function loadTip(tipNumber)
+    {
+      // Catches default value for random tip or NaN from parsing URL without a tip number
+      if (!tipNumber) {
+        const randomNumber = realRandom( 0, Object.keys(_tips).length )
+        window.history.pushState("", "", randomNumber + 100);
+        return {
+          tips: _tips,
+          tipNumber: randomNumber
+        };
+      }
+      window.history.pushState("", "", tipNumber);
+      return {
+        tips: _tips,
+        tipNumber: tipNumber - 100
+      };
+    }
+
+    function generateTip(tipNumber)
+    {
+      updateTipDisplay(loadTip(tipNumber));
+    }
 
 		function init()
 		{
-			_subdomain = getSubdomain();
-			_jsonfile = ""
-
-			switch(_subdomain)
-			{
-				case "f2p":
-					_jsonfile = "tips_f2p.json";
-					setSlogan("New players without membership");
-				break;
-				case "noob":
-					_jsonfile = "tips_noob.json";
-					setSlogan("New players with membership");
-				break;
-				case "iron":
-					_jsonfile = "tips_iron.json";
-					setSlogan("Tips for the BTWs");
-				break;
-				case "pvp":
-					_jsonfile = "tips_pvp.json";
-					setSlogan("Spade chasing");
-				break;
-				default:
-					_jsonfile = "tips_general.json";
-			} 
-
-			_tips = loadJSON(_jsonfile);
+      const _tipNumber = getTipNumber();
+      const _jsonfile = getDomainFile();
+      _tips = loadJSON(_jsonfile);
 			_tips = JSON.parse(_tips);
-			var _get; 
+			
+      generateTip(_tipNumber);
 
-
-			var parsedUrl = new URL(window.location);
-			var newUrl = parsedUrl.pathname;
-			_get = newUrl.replace("/", "");
-
-
-			if( _get == false )
-			{
-				randRoll();
-			}
-			else
-			{
-				permRoll(_get);
-				window.history.pushState("", "", _get);
-			}
-
+      // Enables navigating through tips with arrow keys.
+      document.addEventListener('keyup', event => {
+        if ( event.key === "ArrowLeft" && ( getTipNumber() - 1 ) >= 100 ) {
+          generateTip(getTipNumber() - 1);
+          return
+          };
+        if ( event.key === "ArrowRight" && ( getTipNumber() + 1)  <= ( _tips.length + 99 )) {
+          generateTip(getTipNumber() + 1);
+          return
+          };
+        alert(
+          "There are no more tips in this direction! If you are looking for more information " +
+          "perhaps you can look at the OSRS wiki located at https://oldschool.runescape.wiki/"
+        );
+      });
 		}
 
 		function realRandom(min, max) //js randomizer sucks
 		{
 			return Math.floor( Math.random() * (max - min) ) + min;
-		}
-
-		function randRoll() //rolls a random tip and sets it
-		{
-			var roll = realRandom( 0, Object.keys(_tips).length );
-			document.getElementById("tip").innerHTML = "<h1>Tip #"+_tips[roll].id+"</h1>";
-			document.getElementById("tip").innerHTML += "<p>"+_tips[roll].text+"</p>";
-			window.history.pushState("", "", roll+100);
-		}
-
-		function permRoll(get) //loads a specific tip
-		{
-			get -= 100; //starts at 100!
-			document.getElementById("tip").innerHTML = "<h1>Tip #"+_tips[get].id+"</h1>";
-			document.getElementById("tip").innerHTML += "<p>"+_tips[get].text+"</p>";
 		}
 	</script>
 		<!-- Global site tag (gtag.js) - Google Analytics, for all you curious readers -->
@@ -165,7 +178,7 @@ echo "<span onClick='comment();'>
 🗨️0
 </span>";
 
-echo "<span onClick='randRoll();'>
+echo "<span onClick='generateTip();'>
 🎲
 </span>";
 echo "</div>";
