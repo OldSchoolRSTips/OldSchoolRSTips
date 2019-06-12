@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="main.css">
@@ -117,19 +117,96 @@
 			return Math.floor( Math.random() * (max - min) ) + min;
 		}
 
+		function processTags(tags)
+		{
+			//iterate through all tags
+			//tags div inner html += decided image for tag.
+			//skill icons, coin icon, 1/2/3 stripe rank/difficulty	
+
+			document.getElementById("tags").innerHTML = "";	
+
+			if(tags)
+			{
+				var _finalTagImages = "";
+				//alert(tags);
+				if( tags.includes('woodcutting') )
+				{
+					_finalTagImages += "<img class='timg' src='tagimg/18.png'>";
+				}
+				if( tags.includes('runecrafting') )
+				{
+					_finalTagImages += "<img class='timg' src='tagimg/19.png'>";
+				}
+				if( tags.includes('slayer') )
+				{
+					_finalTagImages += "<img class='timg' src='tagimg/20.png'>";
+				}
+				if( tags.includes('farming') )
+				{
+					_finalTagImages += "<img class='timg' src='tagimg/21.png'>";
+				}
+				if( tags.includes('hunter') )
+				{
+					_finalTagImages += "<img class='timg' src='tagimg/23.png'>";
+				}
+				if( tags.includes('magic') )
+				{
+					_finalTagImages += "<img class='timg' src='tagimg/16.png'>";
+				}
+				if( tags.includes('construction') )
+				{
+					_finalTagImages += "<img class='timg' src='tagimg/22.png'>";
+				}
+				if( tags.includes('prayer') )
+				{
+					_finalTagImages += "<img class='timg' src='tagimg/13.png'>";
+				}
+				if( tags.includes('money') )
+				{
+					_finalTagImages += "<img class='timg' src='tagimg/coins.png'>";
+				}
+				if( tags.includes('frugal') )
+				{
+					_finalTagImages += "<img class='timg' src='tagimg/coins.png'>";
+				}
+				if( tags.includes('combat') )
+				{
+					_finalTagImages += "<img class='timg' src='tagimg/1.png'>";
+				}
+				if( tags.includes('skull') )
+				{
+					_finalTagImages += "<img class='timg' src='tagimg/pvp.png'>";
+				}
+
+				document.getElementById("tags").innerHTML = _finalTagImages;
+
+				_finalTagImages = "";
+			}
+		}
+
 		function randRoll() //rolls a random tip and sets it
 		{
+			//
+
 			var roll = realRandom( 0, Object.keys(_tips).length );
-			document.getElementById("tip").innerHTML = "<h1>Tip #"+_tips[roll].id+"</h1>";
-			document.getElementById("tip").innerHTML += "<p>"+_tips[roll].text+"</p>";
+			processTags(_tips[roll].tags);
+			document.getElementById("tipH1").innerHTML = "Tip #"+_tips[roll].id;
+			document.getElementById("tipParagraph").innerHTML = _tips[roll].text;
+			
+			
+
 			window.history.pushState("", "", roll+100);
 		}
 
 		function permRoll(get) //loads a specific tip
 		{
+			//document.getElementById("tags").innerHTML = "";	
+			
 			get -= 100; //starts at 100!
-			document.getElementById("tip").innerHTML = "<h1>Tip #"+_tips[get].id+"</h1>";
-			document.getElementById("tip").innerHTML += "<p>"+_tips[get].text+"</p>";
+			processTags(_tips[get].tags);
+			document.getElementById("tipH1").innerHTML = "Tip #"+_tips[get].id+"";
+			document.getElementById("tipParagraph").innerHTML = ""+_tips[get].text+"";
+
 		}
 	</script>
 		<!-- Global site tag (gtag.js) - Google Analytics, for all you curious readers -->
@@ -146,19 +223,26 @@
 <div id="background"></div>
 <?PHP
 
-echo "<h1>OldSchoolRS.Tips (Beta)</h1>";
+echo "<h1>OldSchoolRS.tips (Beta 2)</h1>";
 echo "<p id=\"slogan\" style=\"margin-left:16px; margin-top:-20px; font-size:22px;\">By players. For players.</p>";
 
 echo "<div id='tip'>";
+
+echo "<span id='tags'> </span>";
+
 echo "<h1 id='tipH1'>";
 echo "</h1>";
+
+
+
 echo "<p id='tipParagraph'>";
 echo "</p>";
+
 echo "</div>";
+
 echo "<div id='shelf'>";
 
-echo "<span onClick='like();'>
-❤️0
+echo "<span onClick='like();'>❤️0
 </span>";
 
 echo "<span onClick='comment();'>
@@ -171,7 +255,7 @@ echo "<span onClick='randRoll();'>
 echo "</div>";
 
 echo "<div id='footer'>";
-echo "<span><a href='http://oldschoolrs.tips'>Home</a> | <a href='http://noob.oldschoolrs.tips'>New players</a> | F2P (soon) | PvP (soon) | Ironman (soon) | <a href='https://github.com/OldSchoolRSTips/OldSchoolRSTips/issues/new?title=Suggestion&body=Idea:' target='_blank'>Suggest a tip</a> | <a href='https://github.com/OldSchoolRSTips/OldSchoolRSTips' target='_blank'>GitHub</a> | <a href='https://old.reddit.com/r/OldSchoolRSTips/' target='_blank'>Reddit</a></span>";
+echo "<span><a href='http://oldschoolrs.tips'>Home</a> | <a href='http://noob.oldschoolrs.tips'>New players</a> | F2P (soon) | PvP (soon) | Ironman (soon) | <a href='https://forms.gle/6MuLEKsB9byTN5Ng8' target='_blank'>Suggest a tip</a> | <a href='https://github.com/OldSchoolRSTips/OldSchoolRSTips' target='_blank'>GitHub</a> | <a href='https://old.reddit.com/r/OldSchoolRSTips/' target='_blank'>Reddit</a></span>";
 echo "</div>";
 ?>
 </body>
