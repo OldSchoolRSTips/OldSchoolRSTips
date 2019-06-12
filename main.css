@@ -56,6 +56,14 @@ a:hover
    border-radius: 25px;
    
 }
+
+#tags
+{
+   float: right;
+   margin-top: 14px;
+   margin-right: 34px;
+}
+
 #shelf
 {
    padding: 18px;
@@ -108,4 +116,13 @@ p
    _text-shadow: 0px 0px 0px transparent;
    margin-left: 46px;
    margin-right: 46px;
+}
+
+.timg
+{
+   margin-left: 8px;
+   image-rendering: -moz-crisp-edges;
+   image-rendering: crisp-edges;
+   transform: scale(2);
+   margin-left: 31px;
 }
