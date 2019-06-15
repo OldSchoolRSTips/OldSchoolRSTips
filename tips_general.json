@@ -2,7 +2,7 @@
    {
       "id":100,
       "text":"The <a href='https://oldschool.runescape.wiki/w/Ancient_mace' target='_blank'>Ancient mace</a> special attack overfills your Prayer points by the amount that you hit. This overcharge does not decay. Attack a dummy in a player-owned house for a maximum of 38 extra Prayer points.",
-      "tags":["prayer", "construction", "combat", "frugal"]
+      "tags":["prayer", "construction", "combat", "money"]
    },
    {
       "id":101,
@@ -37,12 +37,12 @@
    {
       "id":107,
       "text":"Wine is a very cheap source of healing for players of all levels. For a few GP, they heal 11 hitpoints. They can be used by archers and mages, and even warriors if their attack-draining effects are counteracted by a restore potion.",
-      "tags":["frugal", "f2p"]
+      "tags":["money", "f2p"]
    },
    {
       "id":108,
       "text":"A higher Prayer bonus reduces the rate at which your prayer points drain. If you're using a protection prayer, then it's advised to completely abandon defensive stats and go for as high of a prayer bonus as possible, as the prayer results in 100% invincibility anyways.",
-      "tags":["prayer", "frugal"]
+      "tags":["prayer", "money"]
    },
    {
       "id":109,
