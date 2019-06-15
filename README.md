@@ -1,5 +1,6 @@
 # To-do
 
+* Tip count at the bottom, after version number
 * Subdomains simply set a different landing page and flip an initial tag. Nothing more.
 * F2p toggle option. Clicking the gold/silver star/slider toggles it to the other color and includes/filters tips that are tagged as f2p or p2p. No more f2p in subdomains - loading a link to an F2p tip automatically turns the F2p filter ON.
 * Anonymous Google Forms tip submission. What is the tip? Who does it pertain to (category)?
