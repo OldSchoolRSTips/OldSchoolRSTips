@@ -62,7 +62,7 @@
    {
       "id":112,
       "text":"Raise a <a href='https://oldschool.runescape.wiki/w/Cat' target='_blank'>Cat</a> every four hours and trade it in for Death runes. The only input is a few pieces of fish. Complete the <a href='https://oldschool.runescape.wiki/w/Ardougne_Diary#Easy' target='_blank'>Easy Ardougne Diaries</a> to double the Death rune reward to 200.",
-      "tags":["money", "frugal", "magic", "iron"]
+      "tags":["money", "magic", "iron"]
    },
    {
       "id":113,
@@ -87,7 +87,7 @@
    {
       "id":117,
       "text":"<a href='https://oldschool.runescape.wiki/w/Wintertodt' target='_blank'>Wintertodt</a> is easier the lower your Hitpoints level, as the damage is percentage based. Do Wintertodt earlier rather than later, and you'll use much less food in the long run!",
-      "tags":["firemaking", "frugal"]
+      "tags":["firemaking"]
    },
    {
       "id":118,
